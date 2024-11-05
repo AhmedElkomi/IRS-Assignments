@@ -1,7 +1,7 @@
 # Intelligent Recommender Systems - Neighborhood CF Models (User-based and Item-based CF)
 
 ## Overview
-This project is part of the *AIE425 Intelligent Recommender Systems* course assignment, focusing on building and evaluating neighborhood-based collaborative filtering (CF) models. These models are designed to generate personalized recommendations by analyzing user and item similarities.
+This Assignment is part of the *AIE425 Intelligent Recommender Systems* course assignments, focusing on building and evaluating neighborhood-based collaborative filtering (CF) models. These models are designed to generate personalized recommendations by analyzing user and item similarities.
 
 In this assignment, both **User-based CF** and **Item-based CF** approaches are implemented, utilizing **Cosine Similarity** and **Pearson Correlation** as similarity measures. The performance of each approach is evaluated using **Root Mean Square Error (RMSE)** and **Mean Absolute Error (MAE)**, which provide insights into prediction accuracy.
 
