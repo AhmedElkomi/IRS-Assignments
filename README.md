@@ -1,66 +1,47 @@
-# Intelligent Recommender Systems - Neighborhood CF Models (User-based and Item-based CF)
+AIE 425: Intelligent Recommender Systems Assignments
 
-## Overview
-This Assignment is part of the *AIE425 Intelligent Recommender Systems* course assignments, focusing on building and evaluating neighborhood-based collaborative filtering (CF) models. These models are designed to generate personalized recommendations by analyzing user and item similarities.
+Overview
 
-In this assignment, both **User-based CF** and **Item-based CF** approaches are implemented, utilizing **Cosine Similarity** and **Pearson Correlation** as similarity measures. The performance of each approach is evaluated using **Root Mean Square Error (RMSE)** and **Mean Absolute Error (MAE)**, which provide insights into prediction accuracy.
+This document serves as the README file for the assignments in AIE 425: Intelligent Recommender Systems. It provides detailed instructions, guidelines, and expectations for completing and submitting assignments for this course.
 
-## Project Structure
+Table of Contents
 
-- Data Collection: Data is collected from a chosen source, preprocessed, and transformed into a user-item rating matrix.
-- User-Based CF: Recommends items by identifying users with similar preferences.
-- Item-Based CF: Recommends items based on similarities between items.
-- Evaluation Metrics: RMSE and MAE are used to measure prediction accuracy.
+Course Description
 
-## Requirements
+Assignment Objectives
 
-- Python 3.8+
-- Libraries:
-  - `pandas`
-  - `numpy`
-  - `scikit-learn`
-  - `scipy`
-  - `seaborn`
-  - `matplotlib`
-  - `beutiful soup`
+Assignment Format and Requirements
 
+Submission Guidelines
 
-## Dataset
+Grading Criteria
 
-The dataset consists of user-item ratings on a scale of 1 to 5, representing each user’s rating of different products. The data was collected through web scraping from [Amazon](https://www.geeksforgeeks.org/scraping-amazon-product-information-using-beautiful-soup/), which provided product names, ratings, ratings count, and availability status.
+Academic Integrity
 
-## Models Implemented
+Contact Information
 
-1. User-Based Collaborative Filtering
-   - Finds a peer group for each target user based on **Cosine Similarity** and **Pearson Correlation**.
-   
-2. Item-Based Collaborative Filtering
-   - Finds similar items based on user ratings using **Cosine Similarity** and **Pearson Correlation**.
+Course Description
 
-## Results
+This course aims to teach students how to design a recommender system that offers personalized access for users to efficiently search information and make choices online. It introduces recommender systems’ major concepts and methodologies, including:
 
-### Accuracy Metrics
-Each model was evaluated using RMSE and MAE, calculated as follows:
+Neighborhood-based Collaborative Filtering
 
-| Model                      | RMSE   | MAE   |
-|----------------------------|--------|-------|
-| **User-Based CF (Cosine)** | 1.11   | 0.93  |
-| **User-Based CF (Pearson)**| 1.05   | 0.84  |
-| **Item-Based CF (Cosine)** | 1.17   | 0.99  |
-| **Item-Based CF (Pearson)**| 1.74   | 1.46  |
+Model-based Collaborative Filtering
 
-Performance Summary
-- User-Based CF (Pearson) showed the best performance with the lowest error rates, suggesting it effectively captures user preferences in this dataset.
-- Item-Based CF (Pearson) performed the least accurately, with a relatively high RMSE and MAE.
+Content-based Recommender Systems
 
-Usage
+Knowledge-based Recommender Systems
 
-1. Preprocess Data: Clean and structure your dataset to form a user-item matrix.
-2. Run Models: Execute the User-based and Item-based CF models using `cosine` and `pearson` similarity.
-3. Evaluate: Use RMSE and MAE to assess each model’s performance.
+Evaluation of Recommender Systems
 
+A variety of real-world applications are included, such as those deployed in e-commerce sites and social networks.
 
-Future Enhancements
+Assignment Objectives
 
-- Hybrid Recommender: Integrate content-based filtering for improved performance.
-- Hyperparameter Tuning: Experiment with different similarity thresholds to improve accuracy.
+Assignments in this course aim to:
+
+Deepen your understanding of recommender system algorithms and their applications.
+
+Provide hands-on experience with tools and techniques for building and evaluating recommender systems.
+
+Foster critical thinking about the ethical implications of recommendation systems in real-world scenarios.
