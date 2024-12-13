@@ -4,24 +4,6 @@ Overview
 
 This document serves as the README file for the assignments in AIE 425: Intelligent Recommender Systems. It provides detailed instructions, guidelines, and expectations for completing and submitting assignments for this course.
 
-# Table of Contents
-
-Course Description
-
-Assignment Objectives
-
-Assignment Format and Requirements
-
-Submission Guidelines
-
-Grading Criteria
-
-Academic Integrity
-
-Contact Information
-
-Course Description
-
 This course aims to teach students how to design a recommender system that offers personalized access for users to efficiently search information and make choices online. It introduces recommender systems’ major concepts and methodologies, including:
 
 Neighborhood-based Collaborative Filtering
