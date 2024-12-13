@@ -1,10 +1,10 @@
-AIE 425: Intelligent Recommender Systems Assignments
+# AIE 425: Intelligent Recommender Systems Assignments
 
 Overview
 
 This document serves as the README file for the assignments in AIE 425: Intelligent Recommender Systems. It provides detailed instructions, guidelines, and expectations for completing and submitting assignments for this course.
 
-Table of Contents
+# Table of Contents
 
 Course Description
 
@@ -36,7 +36,7 @@ Evaluation of Recommender Systems
 
 A variety of real-world applications are included, such as those deployed in e-commerce sites and social networks.
 
-Assignment Objectives
+# Assignment Objectives
 
 Assignments in this course aim to:
 
